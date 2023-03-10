@@ -1,0 +1,219 @@
+.container{
+    width:1280px;
+    margin: 0 auto;
+    text-align: justify;
+    color:RGB(80, 49, 47);
+}   
+
+body{
+    background-image: linear-gradient(#0ff 1px, transparent 1px);
+	background-size: auto 24px;
+    line-height: 1.5;
+    align-items: center;
+    text-align: center;
+    background-color: RGB(219, 204, 181);
+}
+
+p{
+    font-size: 1rem;
+    font-family: 'Alice', serif;
+}
+
+h1{
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+h2{
+    font-size: 2.25rem;
+	line-height: 3rem; 
+	margin-bottom: 1.5rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+}
+
+h3{
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: 400;
+}
+
+nav{
+    display:flex;
+    justify-content: space-between;
+    background-color: RGB(186, 142, 105);
+    padding: 0 1rem;
+    border-radius: 8px 8px 0px 0px;
+}
+
+nav p{
+    margin-top: 1.5rem;
+}
+
+.intro{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.intro-content{
+    display: block;
+    padding: 0 2rem;
+    text-align: center;
+    text-align: justify;
+    padding-top: 1.5rem;
+    background-color: RGB(116, 50, 51);
+    color: RGB(219, 204, 181);
+    border-radius: 0px 0px 8px 0px;
+}
+
+.intro-content p{
+    font-size: 1rem;
+    margin-top: 7.4rem;
+    margin-bottom: 1.5rem;
+}
+
+.intro-content p:nth-child(3){
+    color:rgb(65, 33, 33);
+}
+
+.intro-content h1 {
+	font-size: 3.375rem;
+	line-height: 3rem; 
+	margin-bottom: 1.5rem;
+}
+
+ .intro-img img{
+    max-width:50rem;
+    border-radius: 0px 0px 0px 8px;
+}  
+
+.book-desc{
+    display: flex;
+    justify-content: space-between;
+    gap:4rem;
+    padding: 1.5rem 3rem;
+    background-color: rgb(241, 227, 206);
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+
+}
+
+.dev{
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+}
+
+.dev-flex{
+    background-color: rgb(241, 227, 206);
+    border-radius: 8px;
+    padding: 1.5rem 3rem;
+    margin-bottom: 1.5rem;
+}
+
+
+.title-flex{
+    display: flex;
+    gap:3rem;
+    justify-content: space-between;
+    background-color: rgb(241, 227, 206);
+    border-radius: 8px;
+    padding: 1.5rem 3rem;
+    margin-bottom: 1.5rem;
+}
+
+.title-content{
+    display: block;
+    width:40%;
+}
+
+.img-flex{
+    display: flex;
+    gap:2rem;
+}
+
+.img-flex div{
+    max-width: 30%;
+}
+
+.title-img{
+    width:50%;
+}
+
+.title-img p{
+    text-align: center;
+    font-size: 0.667rem;
+    margin-top: 0.75rem;
+}
+
+.char-img img{
+    max-width: 15rem;
+    border-radius: 50%;
+    border: 5px solid white;
+    margin:1.5rem;
+}
+
+.char{
+    display:block;
+    width:16rem;
+}
+
+.char h3{
+    font-size: 1.5rem;
+}
+
+.char-flex{
+    display:flex;
+    justify-content: space-between;
+    gap:2rem;
+}
+
+.char-megaflex{
+    background-color: rgb(241, 227, 206);
+    border-radius: 8px;
+    padding: 1.5rem 3rem;
+    margin-bottom: 1.6rem;
+}
+
+.part{
+    display: flex;
+    gap:2rem;
+    margin:1.5rem;
+}
+
+.part-flex{
+    display: block;
+    gap:2rem;
+    background-color: rgb(241, 227, 206);
+    border-radius: 8px;
+    padding: 1.5rem 3rem;
+    margin-bottom: 1.6rem;
+}
+
+.part-content{
+    display: block;
+    width:70%;
+}
+
+.summary h2{
+    margin-bottom: unset;
+}
+
+.part-content h3{
+    font-size: 2rem;
+    margin-bottom: unset;
+}
+
+.part-img img{
+    max-width: 90%;
+    border-radius: 8px;
+}
+
+
+.add{
+    display:flex;
+    gap:2rem;
+}
